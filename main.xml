@@ -1,0 +1,13 @@
+<table name="Tier 5 skills">
+	<AssetUpdates id="31502" version="0.81" provider="modworkshop" />
+	<Localization directory="locale" default="locale.json">
+	</Localization>
+
+	<Hooks directory="Hooks">
+		<hook file="skilltreetweakdata.lua" source_file="lib/tweak_data/skilltreetweakdata"/>
+		<hook file="skilltreemanager.lua" source_file="lib/managers/skilltreemanager"/>
+		<hook file="skilltreeguinew.lua" source_file="lib/managers/menu/skilltreeguinew"/>
+		<hook file="upgradestweakdata.lua" source_file="lib/tweak_data/upgradestweakdata"/>
+		<hook file="playerstandard.lua" source_file="lib/units/beings/player/states/playerstandard"/>
+	</Hooks>
+</table>
