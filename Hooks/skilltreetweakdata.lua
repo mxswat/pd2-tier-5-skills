@@ -90,10 +90,10 @@ Hooks:PostHook(SkillTreeTweakData, "init", "TIER5_SkillTreeTweakData_init", func
 		}
 	}
 
-	local tree = find_skilltree(self.trees ,"st_menu_technician_sentry")
-  table.insert(tree.tiers, {
-    "explosive_sentries"
-  })
+	-- local tree = find_skilltree(self.trees ,"st_menu_technician_sentry")
+  -- table.insert(tree.tiers, {
+  --   "explosive_sentries"
+  -- })
 
 	self.skills.heisters_never_die = {
 		{
