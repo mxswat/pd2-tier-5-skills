@@ -1,4 +1,4 @@
-
+-- This is for the Tier 5 Inspire
 local old_PlayerStandard__get_unit_intimidation_action = PlayerStandard._get_unit_intimidation_action
 function PlayerStandard:_get_unit_intimidation_action(intimidate_enemies, intimidate_civilians, intimidate_teammates, only_special_enemies, intimidate_escorts, intimidation_amount, primary_only, detect_only, secondary)
 	local voice_type, plural, prime_target = old_PlayerStandard__get_unit_intimidation_action(self, intimidate_enemies, intimidate_civilians, intimidate_teammates, only_special_enemies, intimidate_escorts, intimidation_amount, primary_only, detect_only, secondary)

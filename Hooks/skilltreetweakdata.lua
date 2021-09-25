@@ -19,7 +19,7 @@ Hooks:PostHook(SkillTreeTweakData, "init", "TIER5_SkillTreeTweakData_init", func
 		digest(1),
 		digest(3),
 		digest(18),
-		digest(24)
+		digest(22)
 	}
 	self.costs = {
 		unlock_tree = digest(0),
@@ -119,6 +119,32 @@ Hooks:PostHook(SkillTreeTweakData, "init", "TIER5_SkillTreeTweakData_init", func
 	local tree = find_skilltree(self.trees ,"st_menu_mastermind_inspire")
 	table.insert(tree.tiers, {
 		"heisters_never_die"
+	})
+
+	self.skills.dodge_speed_boost = {
+		{
+			upgrades = {
+				"temporary_dodge_speed_boost_1"
+			},
+			cost = self.costs.default
+		},
+		{
+			upgrades = {
+				"temporary_dodge_speed_boost_2"
+			},
+			cost = self.costs.pro
+		},
+		name_id = "menu_dodge_speed_boost",
+		desc_id = "menu_dodge_speed_boost_desc",
+		icon_xy = {
+			2,
+			9
+		}
+	}
+	
+	local tree = find_skilltree(self.trees ,"st_menu_ghost_concealed")
+	table.insert(tree.tiers, {
+		"dodge_speed_boost",
 	})
   
 end)

@@ -9,5 +9,7 @@
 		<hook file="skilltreeguinew.lua" source_file="lib/managers/menu/skilltreeguinew"/>
 		<hook file="upgradestweakdata.lua" source_file="lib/tweak_data/upgradestweakdata"/>
 		<hook file="playerstandard.lua" source_file="lib/units/beings/player/states/playerstandard"/>
+		<hook file="playermanager.lua" source_file="lib/managers/playermanager"/>
+		
 	</Hooks>
 </table>

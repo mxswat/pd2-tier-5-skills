@@ -1,4 +1,4 @@
--- Mx overriden function
+-- Avoids crashed when a sub skill tree has less then 5 tiers
 function NewSkillTreeTreeItem:link(left_tree, right_tree)
 	local first_item, last_item = nil
 

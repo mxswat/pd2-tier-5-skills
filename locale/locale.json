@@ -1,4 +1,6 @@
 {
   "menu_heisters_never_die": "Heisters never die",
-  "menu_heisters_never_die_desc": "BASIC: ##$basic##\nWhen you revive someone using inspire, you will revive everyone around him in a ##50## meters radius \n\nACED:##$pro##\n Increases the bonus to ##100## meters"
+  "menu_heisters_never_die_desc": "BASIC: ##$basic##\nWhen you revive someone using inspire, you will revive everyone around him in a ##50## meters radius \n\nACE: ##$pro##\nIncreases the bonus to ##100## meters",
+  "menu_dodge_speed_boost": "Speeed Demon",
+  "menu_dodge_speed_boost_desc": "BASIC: ##$basic##\nEverytime you dodge you get ##40%## movement speed for ##1## second and restore ##10%## stamina\n\nACE: ##$pro##\nIncrease the  movement speed bonus to ##60%##"
 }
